@@ -1,0 +1,57 @@
+{
+  "name": "huddle-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.4.17",
+    "@craco/craco": "^6.4.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "firebase": "^9.4.1",
+    "formik": "^2.2.9",
+    "graphql": "^16.0.1",
+    "history": "5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.1.1",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "6",
+    "react-scripts": "4.0.3",
+    "react-spinners": "^0.11.0",
+    "react-spring": "^9.0.0-rc.3",
+    "simple-zustand-devtools": "^1.0.1",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.11",
+    "zustand": "^3.6.5"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  }
+}
